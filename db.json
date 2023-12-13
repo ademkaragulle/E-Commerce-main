@@ -1,0 +1,215 @@
+{
+  "users": [
+    {
+      "email": "a",
+      "password": "a",
+      "name": "a",
+      "surname": "a",
+      "id": 1
+    },
+    {
+      "email": "b",
+      "password": "b",
+      "name": "b",
+      "surname": "b",
+      "id": 2
+    },
+    {
+      "email": "as",
+      "password": "as",
+      "name": "adem",
+      "surname": "asdas",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": "40edf9fe-c71f-4114-954f-c7a74b78df15",
+      "UserId": 1,
+      "order": [
+        {
+          "id": 1,
+          "title": "Tshirt ",
+          "price": 10,
+          "description": "T shirt for man",
+          "images": [
+            "https://i.imgur.com/QkIa5tT.jpeg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T06:24:28.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "c77d70c3-24d5-4260-a689-dba8c831e004",
+      "UserId": 2,
+      "order": [
+        {
+          "id": 1,
+          "title": "laptop ",
+          "price": 10,
+          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+          "images": [
+            "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T07:01:53.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Incredible Metal Ball",
+          "price": 724,
+          "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+          "images": [
+            "https://i.imgur.com/1twoaDy.jpeg",
+            "https://i.imgur.com/FDwQgLy.jpeg",
+            "https://i.imgur.com/kg1ZhhH.jpeg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T06:04:34.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "80ea3dda-a160-466b-87eb-8eca3c1ad2d9",
+      "UserId": 1,
+      "order": [
+        {
+          "id": 2,
+          "title": "Incredible Metal Ball",
+          "price": 724,
+          "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+          "images": [
+            "https://i.imgur.com/1twoaDy.jpeg",
+            "https://i.imgur.com/FDwQgLy.jpeg",
+            "https://i.imgur.com/kg1ZhhH.jpeg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T06:04:34.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3a3017cc-659c-43bc-853c-ce6509f44406",
+      "UserId": 1,
+      "order": [
+        {
+          "id": 7,
+          "title": "Handmade Metal Pizza",
+          "price": 23,
+          "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+          "images": [
+            "https://i.imgur.com/mp3rUty.jpeg",
+            "https://i.imgur.com/JQRGIc2.jpeg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T06:04:34.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "title": "Refined Bronze Pants",
+          "price": 805,
+          "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+          "images": [
+            "https://i.imgur.com/9LFjwpI.jpeg",
+            "https://i.imgur.com/vzrTgUR.jpeg",
+            "https://i.imgur.com/p5NdI6n.jpeg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T06:04:34.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "title": "Handmade Concrete Mouse",
+          "price": 21,
+          "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+          "images": [
+            "https://i.imgur.com/ZKGofuB.jpeg",
+            "https://i.imgur.com/GJi73H0.jpeg",
+            "https://i.imgur.com/633Fqrz.jpeg"
+          ],
+          "creationAt": "2023-12-13T06:04:34.000Z",
+          "updatedAt": "2023-12-13T06:04:34.000Z",
+          "category": {
+            "id": 1,
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2023-12-13T06:04:34.000Z",
+            "updatedAt": "2023-12-13T06:04:34.000Z"
+          },
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "favItems": [
+    {
+      "id": "7faab7b5-818b-4e74-b3d2-90f82941578d",
+      "UserId": 1,
+      "favItem": 1
+    },
+    {
+      "id": "68ddccac-f053-4060-8b28-52e705dd4094",
+      "UserId": 1,
+      "favItem": 2
+    },
+    {
+      "id": "f13ac9f5-e63a-45f5-9e39-f5716d7fc88e",
+      "UserId": 1,
+      "favItem": 3
+    },
+    {
+      "id": "85a94017-3ae1-4de9-b9a0-ee0f9db8fd40",
+      "UserId": 1,
+      "favItem": 6
+    }
+  ]
+}

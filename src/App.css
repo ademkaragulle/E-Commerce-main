@@ -1,0 +1,22 @@
+.signUpActive {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.pop-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(244, 221, 190);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    border-radius: 20px;
+}
