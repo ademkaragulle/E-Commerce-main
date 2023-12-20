@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 import { clearCart, decreaseQuantity, increaseQuantity, removeFromCart } from '../../store/slices/BasketSlice'
 import { v4 as uuidv4 } from 'uuid';
+import { useSelector } from 'react-redux';
 
 
 function Basket() {
@@ -11,7 +11,6 @@ function Basket() {
         return {
             basket: store.basket.items,
             CurrentUser: store.currentUser.CurrentUser,
-
         }
     })
     const calculateTotalPrice = () => {
